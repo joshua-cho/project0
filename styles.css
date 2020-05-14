@@ -1,0 +1,66 @@
+
+
+#header {
+  background-color:#e8b261;
+  height:130px;
+  width:100%;
+}
+
+input[type="submit"] {
+  padding: 4px 8px;
+}
+
+form {
+  width: 75%;
+  margin: 50 auto;
+  align-items:center;
+}
+
+/*
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+*/
+
+@media (hover: hover) {
+  a:hover {
+    background: black;
+  }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-iinline-end: 0px;
+    vertical-align: baseline;
+}
+
+
+p {
+    display: block;
+    vertical-align: baseline;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+/*# sourceMappingURL=styles.css.map */
