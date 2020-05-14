@@ -4,35 +4,35 @@
         <title>Form</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
       <div id="header">
           <h1 style=font-family:'Jost';font-size:100px;color:white;>contact us</h1>
       </div>
-      <form>
+      <form style="margin-bottom:50px">
         <div class="row" style="margin-top:50px">
             <div class="col-md-10" style="margin-left:20%">
               <div class="form-group">
-                <label for="usr">Name:</label>
+                <label for="usr">name</label>
                 <input type="text" class="form-control" id="usr" placeholder="Harry Cox">
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+                <label for="exampleInputEmail1">email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="harry_cox@example.com">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
               <div class="form-group">
-                <label for="phonenum">Digits</label>
+                <label for="phonenum">digits</label>
                 <input type="tel" class="form-control" id="phonenum" aria-describedby="emailHelp"
                 placeholder="(xxx)xxx-xxxx" pattern:"^\d{3}-\d{3}-\d{4}$">
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
+                <label for="exampleFormControlTextarea1">what's up?</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-              <a target="_blank" class="btn btn-filled btn-lg mb0" href="https://en.wikipedia.org/wiki/420_(cannabis_culture)"
-              style="width:200px; color:grey; background-color:#ede972">
+              <a class="btn btn-filled btn-lg mb0" href="page2.html"
+              style="width:200px; color:black;">
                   Submit
               </a>
               </div>
@@ -49,5 +49,23 @@
         </form>
       -->
 
+      <div id="footer" style="text-align:center; height:200px; width: 100%;
+      background-color:#ede9cc; padding-top:50px; font-family:'Jost'">
+        <div>
+          <a href="index.html" style="color:black;">
+            home
+          </a>
+        </div>
+        <div>
+          <a href="form.html" style="color:black;font-family:'Jost'">
+            contact us
+          </a>
+        </div>
+        <div>
+          <a href="page1.html" style="color:black;font-family:'Jost'">
+            what is misugaru?
+          </a>
+        </div>
+      </div>
     </body>
 </html>

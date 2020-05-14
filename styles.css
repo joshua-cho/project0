@@ -13,9 +13,14 @@ input[type="submit"] {
 form {
   width: 75%;
   margin: 50 auto;
-  align-items:center;
+  font-family:'Jost'
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 20px;
+}
 /*
 .container {
   display: flex;
@@ -25,9 +30,15 @@ form {
 
 @media (hover: hover) {
   a:hover {
-    background: black;
+    background: #fcf6c4;
   }
 }
+@media (link: link) {
+  a:link {
+    color: yellow;
+  }
+}
+
 
 .container {
     display: flex;
